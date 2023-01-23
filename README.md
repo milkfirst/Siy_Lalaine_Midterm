@@ -4,8 +4,8 @@
 Create 2 mobile and 2 desktop-sized scaffolds in preparation for the midterm.
 
 # Adobe XD Wireframes
-[Click me for mobile!](https://xd.adobe.com/view/58fb7f68-3016-42b1-b5d6-b2d954db67f1-0da8/)
-[Click me for desktop!](https://xd.adobe.com/view/58fb7f68-3016-42b1-b5d6-b2d954db67f1-0da8/)
+[Click me for mobile!](https://xd.adobe.com/view/881438f8-98e1-42d3-92c4-ff88eb332de9-dd47/)<br>
+[Click me for desktop!](https://xd.adobe.com/view/0a8deda9-6ab7-4334-8b50-531011e56147-5fde/)
 
 # Download
  ```

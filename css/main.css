@@ -85,7 +85,7 @@ nav img {
 
 /* 4. ---Main Hero Image--- */
 .main-hero  {
-    margin-bottom: 500px;
+    margin-bottom: 425px;
 }
 
 .main-hero img  {
@@ -144,6 +144,17 @@ nav img {
 }
 
 
+/* INDEX THREE BEERS
+    <!-- NEW FLAVORS -->
+    <section class="flavor">
+        <h1>NEW FLAVORS</h1>
+
+        <div class="row">
+            <div class="flavor-col">
+            </div>
+        </div>
+    </section>
+*/
 
 /* 6. ---Footer--- */
 
@@ -156,6 +167,10 @@ nav img {
 h4  {
     padding: 20px;
     font-weight: bold;
+}
+
+footer p    {
+    padding-bottom: 20px;
 }
 
 @media(max-width:700px) {
@@ -208,6 +223,7 @@ h1 {
     margin-bottom: 10px;
     font-weight: 500;
 }
+
 
       form {
       position: relative;
@@ -304,4 +320,4 @@ h1 {
       form {
       width: 60%;
       }
-      }
+}

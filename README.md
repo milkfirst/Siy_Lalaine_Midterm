@@ -1,24 +1,16 @@
-<img width="749" alt="Screen Shot 2023-01-23 at 4 52 07 AM" src="https://user-images.githubusercontent.com/90929523/214012124-38a63635-b53d-436f-a11c-8c8fb7d0c505.png">
+# Billy Beer
 
-# Syponosis
-Create 2 mobile and 2 desktop-sized scaffolds in preparation for the midterm.
+A brand refresh of America's beloved light lager beer, Billy Beer.
+Creating a responsive website for easy use on any device.
 
-# Adobe XD Wireframes
-[Click me for mobile!](https://xd.adobe.com/view/881438f8-98e1-42d3-92c4-ff88eb332de9-dd47/)<br>
-[Click me for desktop!](https://xd.adobe.com/view/0a8deda9-6ab7-4334-8b50-531011e56147-5fde/)
+## Contributing
 
-# Download
- ```
-# Pick the location of where this repository will be downloaded, for example purposes this will be on your desktop
+1. Fork it!
+2. Create your feature branch: `git checkout -b my-new-feature`
+3. Commit your changes: `git commit -am 'Add some feature'`
+4. Push to the branch: `git push origin my-new-feature`
+5. Submit a pull request :D
 
-$ cd Desktop https://github.com/milkfirst/siy_lalaine_Project2-main.git
+## Credits
 
-# Clone this repository into your local machine
-$ git clone 
-
-# Go into the repository
-
-$ cd siy_lalaine_Project2-main
-
-```
-Web Development 1: HW #2 - Create Your Own Midterm Scaffold
+Me :)

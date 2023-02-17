@@ -13,11 +13,19 @@
 
 /* 1. ---General Styles--- */
 
+*   {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 .hidden {
     display: none;
 }
 
+body {
+    font-family: "Poppins", sans-serif;
+}
 
 
 /* 2. ---Grid--- */
@@ -27,14 +35,273 @@ the grid using CSS. It is a class becasue we will use multiple grids */
 
 
 /* 3. ---Header--- */
+/* .header {
+    height: 80px;
+    width: 100%;
+    background-image: url(images/BillyBeer_Hero.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+  }
+*/
 
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 6%;
+}
+
+nav img {
+    width: 80px;
+}
+
+.nav-links  {
+    flex: 1;
+    text-align: right;
+}
+
+.nav-links ul li    {
+    list-style: none;
+    display: inline-block;
+    position: relative;
+    padding: 8px 12px;
+}
+
+.nav-links ul li a  {
+    color: #1D324C;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.nav-links ul li a:hover{
+    font-weight: 700;
+    transition: 0.5s;
+}
+
+.fa-solid   {
+    display: none;
+}
 
 /* 4. ---Main Hero Image--- */
+.main-hero  {
+    margin-bottom: 500px;
+}
+
+.main-hero img  {
+    width: 100%;
+    position: absolute;
+}
+
+.main-hero h1    {
+    top: 150px;
+    padding: 1% 6%;
+    font-size: 40px;
+    color: white;
+    position: relative;    
+}
+
+.main-hero p    {
+    top: 150px;
+    padding: 2% 6%;
+    margin: 10px 0 40px;
+    font-size: 14px;
+    color: white;
+    position: relative;
+}
+
+.hero-btn   {
+    top: 150px;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 15px 40px;
+    font-size: 15px;
+    left: 7%;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+.hero-btn:hover {
+    border: 1px solid orange;
+    background: orange;
+    transition: 1s;
+}
 
 
 
-/* 5. ---Features--- */
+/* 5. --- OUR BEER --- */
+.flavor  {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.flavor-col img {
+    width: 100%;
+}
 
 
 
 /* 6. ---Footer--- */
+
+.footer {
+    width: 100%;
+    text-align: center;
+    padding: 40px 40px;
+}
+
+h4  {
+    padding: 20px;
+    font-weight: bold;
+}
+
+@media(max-width:700px) {
+    
+    .nav-links ul li    {
+        display: block;
+    }
+
+    .nav-links  {
+        position: absolute;
+        background: #1D324C;
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right: 0;
+        text-align: left;
+        z-index: 2;
+    }
+
+    .nav-links ul li a  {
+        color: white;
+        text-decoration: none;
+        font-size: 15px;
+    }
+
+    .fa-solid   {
+        display: block;
+        color: white;
+        margin: 10px;
+        font-size: 22px;
+        cursor: pointer;
+    }
+
+    .nav-links ul   {
+        padding: 30px;
+    }
+}
+
+/* CONTACT US */
+.emailbody {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background: #1D324C;
+}
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+      form {
+      position: relative;
+      width: 80%;
+      border-radius: 30px;
+      background: #fff;
+    }
+
+    .form-left-decoration,
+    .form-right-decoration {
+      content: "";
+      position: absolute;
+      width: 50px;
+      height: 20px;
+      border-radius: 20px;
+      background: #1D324C;
+    }
+      .form-left-decoration {
+      bottom: 60px;
+      left: -30px;
+      }
+      .form-right-decoration {
+      top: 60px;
+      right: -30px;
+      }
+      .form-left-decoration:before,
+      .form-left-decoration:after,
+      .form-right-decoration:before,
+      .form-right-decoration:after {
+      content: "";
+      position: absolute;
+      width: 50px;
+      height: 20px;
+      border-radius: 30px;
+      background: #fff;
+      }
+      .form-left-decoration:before {
+      top: -20px;
+      }
+      .form-left-decoration:after {
+      top: 20px;
+      left: 10px;
+      }
+      .form-right-decoration:before {
+      top: -20px;
+      right: 0;
+      }
+      .form-right-decoration:after {
+      top: 20px;
+      right: 10px;
+      }
+      .circle {
+      position: absolute;
+      bottom: 80px;
+      left: -55px;
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      background: #fff;
+      }
+      .form-inner {
+      padding: 40px;
+      }
+      .form-inner input,
+      .form-inner textarea {
+      display: block;
+      width: 100%;
+      padding: 15px;
+      margin-bottom: 10px;
+      border: none;
+      border-radius: 20px;
+      background: #d0dfe8;
+      }
+      .form-inner textarea {
+      resize: none;
+      }
+      button {
+      width: 100%;
+      padding: 10px;
+      margin-top: 20px;
+      border-radius: 20px;
+      border: none;
+      border-bottom: 4px solid #1D324C;
+      background: #1D324C; 
+      font-size: 16px;
+      font-weight: 400;
+      color: #fff;
+      }
+      button:hover {
+      background: orange;
+      transition: 1s;
+      } 
+      @media (min-width: 568px) {
+      form {
+      width: 60%;
+      }
+      }
